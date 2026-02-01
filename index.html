@@ -14,6 +14,7 @@
             --color-yes-hover: #d90058;
             --color-no-bg: #6c757d;
             --color-no-hover: #5a6268;
+            --color-success-bg: #ffccd5;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@
                 --color-yes-hover: #ff4090;
                 --color-no-bg: #6c757d;
                 --color-no-hover: #858e96;
+                --color-success-bg: #4a0e2e;
             }
         }
 
@@ -245,8 +247,7 @@
             <div class="celebration">🎉✨💖✨🎉</div>
             <h2>Yaay! Congratulations!</h2>
             <div class="photo-container">
-                <<<img src="myimage.png" alt="Your Photo" id="photoImg">
->
+                <img src="myimage.png" alt="Your Photo" id="photoImg" onerror="this.onerror=null; this.src='myimage.jpg'; this.alt='Image not found - check filename';">
             </div>
             <p>You've made me the happiest person! 💕</p>
             <div class="heart">❤️</div>
